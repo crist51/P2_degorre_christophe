@@ -1,0 +1,248 @@
+
+
+@media screen and (max-width:600px){/*phone*/
+
+    p,li,a{
+        font-size: 20px;
+    }
+    header{
+        margin: 0;}
+    
+    /*---------------------------------------------------------------------------------------nav phone*/           
+    
+    #header_top {
+        height: auto;
+        margin-bottom: 35px;
+        padding-top: 20px;
+        display: block;
+    }
+    #header_top h1 img{
+        width: 120px;
+        margin-left:  25px;
+    }   
+    #header_top #menue {
+        flex-wrap: wrap-reverse;
+    }
+    nav{
+        position: relative;
+        bottom: 35px;
+    }
+    #menue li {
+         width: 50%;
+         padding: 0;
+    }
+    #menue a {
+        margin-right: 0;
+    }
+    #menue li:nth-child(1) {
+        padding-bottom: 20px;
+        border-bottom: 5px solid #0065FC;
+        border-top: none;
+    }
+    #menue li:nth-child(2) {
+        padding-bottom: 20px;
+        border-bottom: 5px solid #F2F2F2;
+        border-top: none;
+    }
+    #menue li:nth-child(3) {
+        margin-bottom: 30px;
+        padding-right: 5%;
+        text-align: right;
+        border-top: none;
+
+    }
+    #menue a #inscription {
+        margin-right: 15px;
+    }
+    #menue a {
+        margin-right: 0;
+    }
+    #header_top + h2{
+        margin:0 25px 0 25px;
+        font-size: 22px;
+    }
+    header h2 + p{
+        margin: 10px 25px 50px 25px;
+        font-size: 15px;
+    }
+
+    /*-------------------------------------------------------------------------------------phone imput*/
+    
+    form{
+        width:auto;
+        height: 64px;
+        margin: 0 25px 50px 25px;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px; 
+    }
+    form p{
+        position: relative;
+        top:0px;
+    }
+    form p i{
+        font-size: 20px;
+        }
+    #lieu{
+        width: 90%;
+        height: 59px;
+        border:2px #F2F2F2 solid;
+        font-size: 18px;
+    }
+    #bouton_recherche{
+        width:4px;
+        height: 25px;
+        padding: 30px;
+        border-radius: 15px;
+    }
+    #bouton_recherche span{
+        display: none;
+    }
+    #bouton_recherche i{
+        display: inherit;
+        position: relative;
+        bottom: 10px;
+        right: 10px;
+        font-size: 20px;
+    }
+    
+    /*------------------------------------------------------------------------------------phone_filtre*/
+    #filtres ul a{
+        font-size: 20px;
+    }
+    .info{
+        margin: 30px 25px 30px 25px;
+        align-items: flex-start;
+        }
+    .info p{
+    font-size: 16px;
+    }
+    .info i{
+        padding: 5px 6px 5px 6px;
+        font-size: 12px;
+    }
+
+
+
+    #bloc_hebergement{
+        margin: 0;
+        display: flex;
+    }
+
+    /*-------------------------------------------------------------------------------phone_hebergement*/
+    #bloc_hebergement article{
+        margin: 0;
+        padding: 0 25px 0 25px;
+        background-color: white;
+        margin-bottom: 0;
+    }
+    #bloc_hebergement article h2{
+        margin: 0px 0 5px 0;
+        font-size: 25px;
+    }
+    #bloc_hebergement article ol{
+        flex-direction: column;
+        display: contents;
+        gap: 0;
+    }
+    #bloc_hebergement article ol .hebergement{
+        margin-bottom: 50px;
+        border-radius: 30px;
+        box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.5);
+    }
+    #bloc_hebergement article ol .hebergement .info_hebergement li{
+        font-size: 15px;
+        text-align: left;
+    }
+    #bloc_hebergement article ol + p{  
+        padding: 0;
+        font-size: 20px;
+    }
+
+    /*-------------------------------------------------------------------------------------phone_Aside*/
+    #bloc_hebergement aside{
+        width: 100%;
+        margin-left: 0;
+        padding: 0;
+        border-radius: 0;
+        background-color:#F2F2F2;
+    }
+    #bloc_hebergement aside h2{
+        margin:  20px 25px 20px 25px;
+        font-size: 25px;
+    }
+    #bloc_hebergement aside h2 i{
+        position: relative;
+        top: 10px;
+    }
+    #bloc_hebergement aside ol{
+        margin: 0 25px 0 25px;
+    }
+    #bloc_hebergement aside ol .popullaire{
+        height: auto;/*175*/
+        margin: 5px 5px 50px 5px;
+    }
+    #bloc_hebergement aside ol .popullaire p img {
+        max-width: 130px;
+        max-height: 175px;/*175*/
+        margin-right: 10px;
+    }
+    #bloc_hebergement aside ol .popullaire .info_popullaire{
+        margin: 0px;
+    }
+    #bloc_hebergement aside ol .popullaire .info_popullaire ul li:nth-child(1){
+        font-size: 18px;
+    }
+    #bloc_hebergement aside ol .popullaire .info_popullaire ul li:nth-child(2){
+        font-size: 15px;
+    }
+
+    /*----------------------------------------------------------------------------------phone_activite*/
+    #bloc_activite #activite{
+        margin-bottom: 50px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    #bloc_activite h2{
+        margin: 40px 0 15px 0;
+        padding: 0;
+        font-size: 25px;
+    }
+    #bloc_activite #activite p {
+        padding: 10px 0 10px 10px;
+        font-size: 20px;
+    }
+    #bloc_activite #activite .activite_grande{
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+    }
+    #bloc_activite #activite .activite_grande img{
+        height: 100px;
+    }
+    #bloc_activite #activite .activite_petite{
+        width: 100%;
+        height: auto;
+        gap: 25px;
+    }
+    #bloc_activite #activite .activite_petite .activite_petite_liste{
+        width: 100%;
+        margin-bottom: 0
+    }
+    #bloc_activite #activite .activite_petite .activite_petite_liste img{
+        height: 100px;
+    }
+
+    /*------------------------------------------------------------------------------------phone_footer*/
+    footer{
+        padding-bottom: 40px;
+    }
+    footer h3{
+        font-size: 20px;
+        margin:40px 20px 20px 0;
+    }
+    footer, footer a{
+        font-size: 15px;
+    }
+}
